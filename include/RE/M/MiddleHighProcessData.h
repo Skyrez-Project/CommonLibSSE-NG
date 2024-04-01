@@ -122,7 +122,7 @@ namespace RE
 		BSTArray<BGSPerkEntry*>& operator[](BGSEntryPoint::ENTRY_POINT a_pos)
 		{
 			assert(a_pos < BGSEntryPoint::ENTRY_POINT::kTotal);
-			return perkEntryArrays[std::to_underlying(a_pos)];
+			return perkEntryArrays[stl::to_underlying(a_pos)];
 		}
 
 		// members
