@@ -72,7 +72,7 @@ target_compile_definitions(
 target_compile_features(
 	"${PROJECT_NAME}"
 	PUBLIC
-	cxx_std_23
+	cxx_std_20
 )
 
 if(MSVC)
